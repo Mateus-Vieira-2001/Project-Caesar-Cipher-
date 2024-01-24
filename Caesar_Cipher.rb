@@ -10,7 +10,7 @@ def convert(word, grau)
 
       posicao = alphabet.index(letra_base).to_i + grau.to_i
       array << if letter == ' '
-                 letter
+                 letteradd
                elsif posicao > 26
                  alphabet[posicao - 26]
                else

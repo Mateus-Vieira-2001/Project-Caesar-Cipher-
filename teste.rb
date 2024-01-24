@@ -1,1 +1,1 @@
-puts "ola mundo
+puts 'ola mundo'
